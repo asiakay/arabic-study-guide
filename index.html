@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Arabic Guide</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #27ae60;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            background: #f8f9fa;
+        }
+
+        /* Header */
+        .header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            padding: 1rem;
+            background: #e9ecef;
+        }
+
+        .nav a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* Main Content */
+        .section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Tables */
+        .arabic-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        .arabic-table th {
+            background: var(--primary);
+            color: white;
+            padding: 12px;
+        }
+
+        .arabic-table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Quiz */
+        #quiz-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+      
+        #options-container {
+    margin: 15px 0;
+  }
+
+        .quiz-option {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            background: #e9ecef;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .quiz-option:hover {
+            background: var(--secondary);
+            color: white;
+        }
+
+        /* New additions */
+        .category-tag {
+            background: var(--accent);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Arabic Mastery Guide</h1>
+        <p>Modern Standard Arabic (Fusha)</p>
+    </header>
+
+    <nav class="nav">
+        <a href="#questions">Questions</a>
+        <a href="#vocab">Vocabulary</a>
+        <a href="#verbs">Verbs</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <main>
+        <!-- Full Interrogatives Section -->
+        <section id="questions" class="section">
+            <h2>Questions & Phrases</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="category-tag">Basic Questions</div>
+                    <table class="arabic-table">
+                        <tr><td>What? (general)</td><td>مَا؟</td></tr>
+                        <tr><td>What? (with verbs)</td><td>مَاذَا؟</td></tr>
+                        <tr><td>Which?</td><td>أَيُّ؟</td></tr>
+                        <tr><td>Who?</td><td>مَنْ؟</td></tr>
+                        <tr><td>How?</td><td>كَيْفَ؟</td></tr>
+                        <tr><td>Yes/No Question</td><td>هَلْ؟</td></tr>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <div class="category-tag">Prepositional Questions</div>
+                    <table class="arabic-table">
+                        <tr><td>From where?</td><td>مِنْ أَيْنَ؟</td></tr>
+                        <tr><td>In which?</td><td>فِي أَيِّ؟</td></tr>
+                        <tr><td>With whom?</td><td>مَعَ مَنْ؟</td></tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expanded Vocabulary -->
+        <section id="vocab" class="section">
+            <h2>Comprehensive Vocabulary</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="category-tag">Family & People</div>
+                    <p>أُسْرَةٌ (Nuclear family)</p>
+                    <p>خَالَةٌ (Maternal aunt)</p>
+                    <p>نَاسٌ (People)</p>
+                    <p>وَحِيدٌ/ة (Lonely)</p>
+                </div>
+
+                <div class="card">
+                    <div class="category-tag">Work & Society</div>
+                    <p>بَلَدٌ (Country)</p>
+                    <p>عَمَلٌ (Work)</p>
+                    <p>مُوَظَّفٌ/ة (Employee)</p>
+                    <p>قُبُولٌ (Admission)</p>
+                </div>
+
+                <div class="card">
+                    <div class="category-tag">Time & Language</div>
+                    <p>غَدًا (Tomorrow)</p>
+                    <p>اليَوْمَ (Today)</p>
+                    <p>لُغَةٌ (Language)</p>
+                    <p>دَائِمًا (Always)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Verb Section -->
+        <section id="verbs" class="section">
+            <h2>Verbs & Communication</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="category-tag">Essential Verbs</div>
+                    <table class="arabic-table">
+                        <tr><td>He speaks</td><td>يَتَكَلَّمُ</td></tr>
+                        <tr><td>He talks about</td><td>يَتَكَلَّمُ عَنْ</td></tr>
+                        <tr><td>I have</td><td>عِنْدِي</td></tr>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <div class="category-tag">Translation Terms</div>
+                    <p>تَرْجَمَةٌ (Translation)</p>
+                    <p>مُتَرْجِمٌ/ة (Translator)</p>
+                    <p>مُتَخَصِّصٌ فِي (Specialist in)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Quiz -->
+   <section id="quiz" class="section">
+  <div id="quiz-container" class="card">
+    <h2>Comprehensive Quiz</h2>
+    <div id="question"></div>
+    <div id="options-container"></div>
+    <div id="score">Score: 0/0</div>
+  </div>
+</section>
+    </main>
+
+    <script>
+        // Enhanced Quiz Data
+        const quizData = [
+    {
+      question: "What is the Arabic for 'Country'?",
+      options: ["بَلَدٌ", "عَمَلٌ", "لُغَةٌ"],
+      correct: 0
+    },
+    {
+      question: "How do you say 'He speaks' in Arabic?",
+      options: ["يَتَكَلَّمُ", "عِنْدِي", "مُتَرْجِمٌ"],
+      correct: 0
+    }
+  ];
+
+  let currentQuestion = 0;
+  let score = 0;
+  const questionEl = document.getElementById('question');
+  const optionsContainer = document.getElementById('options-container');
+  const scoreEl = document.getElementById('score');
+
+  function initializeQuiz() {
+    const q = quizData[currentQuestion];
+    questionEl.textContent = q.question;
+    
+    optionsContainer.innerHTML = q.options
+      .map(opt => `<button class="quiz-option">${opt}</button>`)
+      .join('');
+
+    // Re-attach event listeners to new buttons
+    document.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', handleAnswer);
+    });
+  }
+
+  function handleAnswer(e) {
+    const selectedOption = e.target.textContent;
+    const correctAnswer = quizData[currentQuestion].options[quizData[currentQuestion].correct];
+    
+    if (selectedOption === correctAnswer) {
+      score++;
+      e.target.style.background = "#2ecc71"; // Green for correct
+    } else {
+      e.target.style.background = "#e74c3c"; // Red for incorrect
+    }
+
+    scoreEl.textContent = `Score: ${score}/${currentQuestion + 1}`;
+    
+    setTimeout(() => {
+      currentQuestion++;
+      if (currentQuestion < quizData.length) {
+        initializeQuiz();
+      } else {
+        optionsContainer.innerHTML = `<h3>Quiz Complete! Final Score: ${score}/${quizData.length}</h3>`;
+      }
+    }, 1000); // Brief feedback before next question
+  }
+
+  // Start the quiz
+  initializeQuiz();
+</script>
+    </script>
+</body>
+</html>
