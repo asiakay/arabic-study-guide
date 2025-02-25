@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.vocab-card {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+#quiz-container {
+  text-align: center;
+}
+
+.quiz-option {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.quiz-option:hover {
+  background: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
