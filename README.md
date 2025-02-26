@@ -6,7 +6,7 @@ A minimalist, interactive web platform for learning Modern Standard Arabic (Fush
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 <div align="center">
-  <img src="assets/screenshot.png" width="600" alt="Arabic learning interface preview">
+  <img src="assets/IMG_1885.jpeg" width="600" alt="Arabic learning interface preview">
 </div>
 
 ## Features ✨
