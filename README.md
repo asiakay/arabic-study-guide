@@ -2,7 +2,7 @@
 
 A minimalist, interactive web platform for learning Modern Standard Arabic (Fusha). Built with pure HTML/CSS/JS.
 
-[![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://yourusername.github.io/arabic-study-guide) 
+[![Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://arabic-study-guide.pages.dev/) 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 <div align="center">
@@ -18,7 +18,7 @@ A minimalist, interactive web platform for learning Modern Standard Arabic (Fush
 
 ## Quick Start 🚀
 ```bash
-git clone https://github.com/yourusername/arabic-study-guide.git
+git clone https://github.com/asiakay/arabic-study-guide.git
 cd arabic-study-guide
 open index.html
 
